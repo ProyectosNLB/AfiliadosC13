@@ -3,7 +3,6 @@ body {
   font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
   background: #f7f7f7;
 }
-
 .container {
   max-width: 450px;
   margin: 30px auto;
@@ -12,36 +11,29 @@ body {
   box-shadow: 0 4px 24px #0001;
   padding: 28px 24px 16px 24px;
 }
-
 header {
   text-align: center;
   margin-bottom: 24px;
 }
-
 .logo {
   width: 220px;
   margin-bottom: 12px;
 }
-
 h1 {
   font-size: 1.3em;
   margin-bottom: 8px;
 }
-
 .form {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
-
 label {
   display: flex;
   flex-direction: column;
   font-weight: 500;
 }
-
 input[type="text"],
-input[type="date"],
 input[type="file"] {
   margin-top: 6px;
   padding: 8px;
@@ -50,11 +42,9 @@ input[type="file"] {
   border-radius: 6px;
   background: #fafafa;
 }
-
 input[type="file"] {
   padding: 4px;
 }
-
 button {
   margin-top: 12px;
   padding: 10px 0;
@@ -65,26 +55,38 @@ button {
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.85;
 }
-
 button:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
-
+.scanner-section {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.video-container {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+video {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 10px #0001;
+}
 .image-preview {
   margin: 10px 0 0 0;
   text-align: center;
 }
-
 .image-preview img {
   max-width: 160px;
   border-radius: 8px;
   border: 1px solid #eee;
   box-shadow: 0 2px 10px #0001;
 }
-
 footer {
   margin-top: 30px;
   text-align: center;
